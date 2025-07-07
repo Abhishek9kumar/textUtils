@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function About(props) {
-    
-    let myStyle ={
-        color:props.mode ==='dark'?'white':'#434b53',
-        backgroundColor:props.mode ==='dark'?'#434b53':'white',
+
+    let myStyle = {
+        color: props.mode === 'dark' ? 'white' : '#434b53',
+        backgroundColor: props.mode === 'dark' ? '#434b53' : 'white',
     }
 
     return (
@@ -22,7 +22,7 @@ export default function About(props) {
                             aria-expanded="true"
                             aria-controls="collapseOne"
                         >
-                            Accordion Item #1
+                            <strong>🔠Convert Text to Uppercase / Lowercase</strong>
                         </button>
                     </h2>
                     <div
@@ -31,14 +31,7 @@ export default function About(props) {
                         data-bs-parent="#accordionExample"
                     >
                         <div className="accordion-body" style={myStyle}>
-                            <strong>This is the first item's accordion body.</strong> It is
-                            shown by default, until the collapse plugin adds the appropriate
-                            classes that we use to style each element. These classes control
-                            the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or
-                            overriding our default variables. It's also worth noting that just
-                            about any HTML can go within the <code>.accordion-body</code>,
-                            though the transition does limit overflow.
+                            Easily transform your text into <strong>uppercase or lowercase</strong> with a single click. This feature is especially useful for formatting titles, standardizing case usage, or quickly correcting text content without manual editing.
                         </div>
                     </div>
                 </div>
@@ -53,7 +46,7 @@ export default function About(props) {
                             aria-expanded="false"
                             aria-controls="collapseTwo"
                         >
-                            Accordion Item #2
+                            <strong>🧹Remove Extra Spaces</strong>
                         </button>
                     </h2>
                     <div
@@ -62,14 +55,7 @@ export default function About(props) {
                         data-bs-parent="#accordionExample"
                     >
                         <div className="accordion-body" style={myStyle}>
-                            <strong>This is the second item's accordion body.</strong> It is
-                            hidden by default, until the collapse plugin adds the appropriate
-                            classes that we use to style each element. These classes control
-                            the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or
-                            overriding our default variables. It's also worth noting that just
-                            about any HTML can go within the <code>.accordion-body</code>,
-                            though the transition does limit overflow.
+                            Automatically eliminates unnecessary spaces from your text — whether they appear between words or at the beginning or end. This feature helps clean up messy input and ensures consistent, readable formatting.
                         </div>
                     </div>
                 </div>
@@ -84,7 +70,7 @@ export default function About(props) {
                             aria-expanded="false"
                             aria-controls="collapseThree"
                         >
-                            Accordion Item #3
+                            <strong>🔢Count Words and Characters</strong>
                         </button>
                     </h2>
                     <div
@@ -93,14 +79,31 @@ export default function About(props) {
                         data-bs-parent="#accordionExample"
                     >
                         <div className="accordion-body" style={myStyle}>
-                            <strong>This is the third item's accordion body.</strong> It is
-                            hidden by default, until the collapse plugin adds the appropriate
-                            classes that we use to style each element. These classes control
-                            the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or
-                            overriding our default variables. It's also worth noting that just
-                            about any HTML can go within the <code>.accordion-body</code>,
-                            though the transition does limit overflow.
+                            Instantly displays the total number of words and characters in your text. This feature is perfect for writers, students, and professionals who need to meet specific content length requirements.
+                        </div>
+                    </div>
+                </div>
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button
+                            className="accordion-button collapsed"
+                            style={myStyle}
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                        >
+                            <strong>⌛Estimate Reading Time</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                    >
+                        <div className="accordion-body" style={myStyle}>
+                            Provides an approximate reading time based on the length of your text. This helps users understand how long it will take to read their content, making it especially useful for bloggers, editors, and content creators aiming for better user engagement.
                         </div>
                     </div>
                 </div>
