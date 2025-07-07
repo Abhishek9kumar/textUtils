@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Abhishek9kumar/textUtils.git/static/css/main.5f3b7c99.css",
+    "main.js": "/Abhishek9kumar/textUtils.git/static/js/main.04d70152.js",
+    "static/js/453.64512fd7.chunk.js": "/Abhishek9kumar/textUtils.git/static/js/453.64512fd7.chunk.js",
+    "index.html": "/Abhishek9kumar/textUtils.git/index.html",
+    "main.5f3b7c99.css.map": "/Abhishek9kumar/textUtils.git/static/css/main.5f3b7c99.css.map",
+    "main.04d70152.js.map": "/Abhishek9kumar/textUtils.git/static/js/main.04d70152.js.map",
+    "453.64512fd7.chunk.js.map": "/Abhishek9kumar/textUtils.git/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f3b7c99.css",
+    "static/js/main.04d70152.js"
+  ]
+}
