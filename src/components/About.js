@@ -90,15 +90,15 @@ export default function About(props) {
                             style={myStyle}
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
+                            data-bs-target="#collapseFour"
                             aria-expanded="false"
-                            aria-controls="collapseThree"
+                            aria-controls="collapseFour"
                         >
                             <strong>⌛Estimate Reading Time</strong>
                         </button>
                     </h2>
                     <div
-                        id="collapseThree"
+                        id="collapseFour"
                         className="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                     >
